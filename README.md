@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🌱 Paradise Nursery
 
 **Paradise Nursery** is a fully functional e-commerce web application for a fictional plant shop. Browse plants organized by category, add them to a shopping cart, and manage quantities — all powered by a real Redux Toolkit store.
@@ -92,3 +93,6 @@ Then open the printed local URL (default `http://localhost:5173`) in your browse
 2. Browse by category and click **Add to Cart** — the navbar badge updates instantly.
 3. Open **Cart** from the navbar (or the "Go to Cart" button).
 4. Use **+ / −** to change quantities, **Remove** to delete an item, and **Continue Shopping** to return to the products.
+=======
+# paradise-nursery
+>>>>>>> 098f0ec633d0f63bec013ff5bae9314ec78d07c4
