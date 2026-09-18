@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360">
+  <rect width="480" height="360" fill="#eef4e8"/>
+  <circle cx="380" cy="80" r="100" fill="#e0edd8"/>
+  <!-- pot -->
+  <path d="M192 262 h96 l-10 64 h-76 Z" fill="#b5713d"/>
+  <rect x="185" y="252" width="110" height="16" rx="6" fill="#8a5227"/>
+  <!-- stems -->
+  <g stroke="#3f7a44" stroke-width="6" fill="none" stroke-linecap="round">
+    <path d="M240 254 C 220 210 214 160 222 118"/>
+    <path d="M240 254 C 262 216 274 172 268 130"/>
+  </g>
+  <!-- glossy leaves -->
+  <g fill="#2f6b3f">
+    <ellipse cx="212" cy="190" rx="26" ry="13" transform="rotate(-18 212 190)"/>
+    <ellipse cx="268" cy="196" rx="26" ry="13" transform="rotate(14 268 196)"/>
+    <ellipse cx="240" cy="206" rx="28" ry="14"/>
+    <ellipse cx="220" cy="150" rx="20" ry="11" transform="rotate(-24 220 150)"/>
+    <ellipse cx="262" cy="156" rx="20" ry="11" transform="rotate(22 262 156)"/>
+  </g>
+  <!-- big trumpet blooms -->
+  <g>
+    <g transform="translate(220,100)">
+      <path d="M0 22 C -30 6 -34 -28 -12 -38 C 8 -46 28 -28 24 -2 C 21 18 12 26 0 22 Z" fill="#d94f3d"/>
+      <path d="M0 22 C -16 8 -20 -12 -8 -22" stroke="#f2f5ef" stroke-width="4" fill="none" opacity="0.8"/>
+      <path d="M-2 -34 C 6 -46 20 -48 28 -40" stroke="#8f2f22" stroke-width="4" fill="none"/>
+      <g fill="#f4e9a8">
+        <ellipse cx="14" cy="-36" rx="3.4" ry="7" transform="rotate(18 14 -36)"/>
+        <ellipse cx="22" cy="-30" rx="3.4" ry="7" transform="rotate(48 22 -30)"/>
+      </g>
+    </g>
+    <g transform="translate(272,112) scale(0.85)">
+      <path d="M0 22 C -30 6 -34 -28 -12 -38 C 8 -46 28 -28 24 -2 C 21 18 12 26 0 22 Z" fill="#e2643f"/>
+      <path d="M-2 -34 C 6 -46 20 -48 28 -40" stroke="#a34a1f" stroke-width="4" fill="none"/>
+      <g fill="#f4e9a8">
+        <ellipse cx="14" cy="-36" rx="3.4" ry="7" transform="rotate(18 14 -36)"/>
+        <ellipse cx="22" cy="-30" rx="3.4" ry="7" transform="rotate(48 22 -30)"/>
+      </g>
+    </g>
+    <g transform="translate(244,160) scale(0.6)">
+      <path d="M0 22 C -30 6 -34 -28 -12 -38 C 8 -46 28 -28 24 -2 C 21 18 12 26 0 22 Z" fill="#c9452f"/>
+    </g>
+  </g>
+</svg>

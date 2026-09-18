@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360">
+  <rect width="480" height="360" fill="#eef4e8"/>
+  <circle cx="380" cy="85" r="105" fill="#e0edd8"/>
+  <!-- pot -->
+  <path d="M192 262 h96 l-10 64 h-76 Z" fill="#b98757"/>
+  <rect x="185" y="252" width="110" height="16" rx="6" fill="#93693f"/>
+  <!-- stems -->
+  <g stroke="#3f7a44" stroke-width="6" fill="none" stroke-linecap="round">
+    <path d="M240 254 C 220 210 210 160 224 112"/>
+    <path d="M240 254 C 262 214 276 168 268 124"/>
+    <path d="M240 254 C 240 214 242 170 246 138"/>
+  </g>
+  <!-- fenestrated monstera leaves -->
+  <g fill="#3f7a44">
+    <g transform="translate(218,96) rotate(-16)">
+      <path d="M0 0 C -34 -6 -52 -34 -44 -62 C -38 -84 -12 -92 6 -80 C 2 -72 0 -66 2 -60 C 8 -64 16 -66 24 -64 C 18 -52 16 -40 22 -30 C 10 -22 2 -12 0 0 Z"/>
+      <g fill="#eef4e8">
+        <ellipse cx="-24" cy="-52" rx="7" ry="12" transform="rotate(24 -24 -52)"/>
+        <ellipse cx="-6" cy="-70" rx="7" ry="11"/>
+        <ellipse cx="-2" cy="-38" rx="7" ry="10" transform="rotate(-18 -2 -38)"/>
+      </g>
+    </g>
+    <g transform="translate(272,110) rotate(18)">
+      <path d="M0 0 C 34 -6 52 -34 44 -62 C 38 -84 12 -92 -6 -80 C -2 -72 0 -66 -2 -60 C -8 -64 -16 -66 -24 -64 C -18 -52 -16 -40 -22 -30 C -10 -22 -2 -12 0 0 Z"/>
+      <g fill="#eef4e8">
+        <ellipse cx="24" cy="-52" rx="7" ry="12" transform="rotate(-24 24 -52)"/>
+        <ellipse cx="6" cy="-70" rx="7" ry="11"/>
+        <ellipse cx="2" cy="-38" rx="7" ry="10" transform="rotate(18 2 -38)"/>
+      </g>
+    </g>
+    <g transform="translate(246,130)">
+      <path d="M0 0 C -26 -4 -40 -26 -34 -48 C -29 -66 -9 -72 5 -62 C 2 -56 0 -51 2 -46 C 6 -49 12 -51 18 -50 C 14 -40 12 -31 17 -23 C 8 -17 2 -9 0 0 Z"/>
+      <g fill="#eef4e8">
+        <ellipse cx="-18" cy="-40" rx="5.5" ry="9" transform="rotate(22 -18 -40)"/>
+        <ellipse cx="-4" cy="-55" rx="5.5" ry="8"/>
+        <ellipse cx="-1" cy="-29" rx="5.5" ry="8" transform="rotate(-16 -1 -29)"/>
+      </g>
+    </g>
+    <g fill="#4a8a4a">
+      <ellipse cx="212" cy="176" rx="22" ry="13" transform="rotate(-18 212 176)"/>
+      <ellipse cx="270" cy="180" rx="22" ry="13" transform="rotate(16 270 180)"/>
+      <ellipse cx="241" cy="196" rx="24" ry="14"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360">
+  <rect width="480" height="360" fill="#eef4e8"/>
+  <circle cx="110" cy="80" r="100" fill="#e0edd8"/>
+  <!-- pot -->
+  <path d="M195 260 h90 l-10 68 h-70 Z" fill="#a87548"/>
+  <rect x="188" y="250" width="104" height="16" rx="6" fill="#825932"/>
+  <!-- climbing vine -->
+  <g stroke="#3f7a44" stroke-width="5" fill="none" stroke-linecap="round">
+    <path d="M240 252 C 232 200 244 150 232 95 C 240 65 250 50 248 30"/>
+    <path d="M240 200 C 214 180 204 150 210 128"/>
+    <path d="M238 160 C 264 142 276 116 272 96"/>
+  </g>
+  <!-- starry white flowers -->
+  <g fill="#fdfdf6">
+    <g transform="translate(248,34)">
+      <ellipse cx="0" cy="-11" rx="5" ry="11"/>
+      <ellipse cx="0" cy="11" rx="5" ry="11"/>
+      <ellipse cx="-11" cy="0" rx="11" ry="5"/>
+      <ellipse cx="11" cy="0" rx="11" ry="5"/>
+      <ellipse cx="-8" cy="-8" rx="7" ry="5" transform="rotate(-45)"/>
+      <ellipse cx="8" cy="-8" rx="7" ry="5" transform="rotate(45)"/>
+      <ellipse cx="-8" cy="8" rx="7" ry="5" transform="rotate(45)"/>
+      <ellipse cx="8" cy="8" rx="7" ry="5" transform="rotate(-45)"/>
+      <circle r="4.5" fill="#f2d98a"/>
+    </g>
+    <g transform="translate(206,122)">
+      <ellipse cx="0" cy="-10" rx="4.5" ry="10"/>
+      <ellipse cx="0" cy="10" rx="4.5" ry="10"/>
+      <ellipse cx="-10" cy="0" rx="10" ry="4.5"/>
+      <ellipse cx="10" cy="0" rx="10" ry="4.5"/>
+      <circle r="4" fill="#f2d98a"/>
+    </g>
+    <g transform="translate(276,90)">
+      <ellipse cx="0" cy="-10" rx="4.5" ry="10"/>
+      <ellipse cx="0" cy="10" rx="4.5" ry="10"/>
+      <ellipse cx="-10" cy="0" rx="10" ry="4.5"/>
+      <ellipse cx="10" cy="0" rx="10" ry="4.5"/>
+      <circle r="4" fill="#f2d98a"/>
+    </g>
+    <g transform="translate(214,60)">
+      <ellipse cx="0" cy="-9" rx="4" ry="9"/>
+      <ellipse cx="0" cy="9" rx="4" ry="9"/>
+      <ellipse cx="-9" cy="0" rx="9" ry="4"/>
+      <ellipse cx="9" cy="0" rx="9" ry="4"/>
+      <circle r="3.5" fill="#f2d98a"/>
+    </g>
+  </g>
+  <!-- glossy leaves -->
+  <g fill="#2f6b3f">
+    <ellipse cx="222" cy="90" rx="16" ry="10" transform="rotate(-30 222 90)"/>
+    <ellipse cx="258" cy="120" rx="16" ry="10" transform="rotate(24 258 120)"/>
+    <ellipse cx="226" cy="180" rx="18" ry="11" transform="rotate(-20 226 180)"/>
+    <ellipse cx="254" cy="222" rx="18" ry="11" transform="rotate(18 254 222)"/>
+    <ellipse cx="232" cy="238" rx="20" ry="12"/>
+  </g>
+</svg>

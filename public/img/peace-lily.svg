@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360">
+  <rect width="480" height="360" fill="#eef4e8"/>
+  <circle cx="110" cy="80" r="100" fill="#e0edd8"/>
+  <!-- pot -->
+  <path d="M195 260 h90 l-10 68 h-70 Z" fill="#8f5f34"/>
+  <rect x="188" y="250" width="104" height="16" rx="6" fill="#6f4a26"/>
+  <!-- foliage -->
+  <g fill="#2f6b3f">
+    <path d="M240 252 C 190 235 165 190 175 140 C 215 165 235 205 240 252 Z"/>
+    <path d="M240 252 C 290 235 315 190 305 140 C 265 165 245 205 240 252 Z"/>
+    <path d="M240 252 C 205 220 195 170 205 120 C 235 155 245 205 240 252 Z"/>
+    <path d="M240 252 C 275 220 285 170 275 120 C 245 155 235 205 240 252 Z"/>
+  </g>
+  <!-- stems & blooms -->
+  <g stroke="#3f7a44" stroke-width="6" fill="none" stroke-linecap="round">
+    <path d="M240 250 C 238 200 230 150 215 105"/>
+    <path d="M240 250 C 244 195 258 150 285 115"/>
+  </g>
+  <g>
+    <path d="M215 105 C 190 85 190 45 218 32 C 246 45 240 90 215 105 Z" fill="#fdfdf6"/>
+    <path d="M218 96 C 214 70 216 52 222 42" stroke="#efe9c8" stroke-width="5" fill="none"/>
+    <path d="M285 115 C 305 92 302 55 275 45 C 252 60 262 100 285 115 Z" fill="#fdfdf6"/>
+    <path d="M281 104 C 288 82 288 62 282 52" stroke="#efe9c8" stroke-width="5" fill="none"/>
+    <ellipse cx="219" cy="70" rx="7" ry="22" fill="#f2d98a"/>
+    <ellipse cx="277" cy="80" rx="7" ry="22" fill="#f2d98a"/>
+  </g>
+</svg>

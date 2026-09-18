@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360">
+  <rect width="480" height="360" fill="#eef4e8"/>
+  <circle cx="120" cy="80" r="100" fill="#e0edd8"/>
+  <!-- low bowl pot -->
+  <path d="M170 258 h140 l-12 56 h-116 Z" fill="#7d9b6f"/>
+  <rect x="162" y="248" width="156" height="16" rx="6" fill="#5f7d55"/>
+  <!-- velvet leaf rosette -->
+  <g fill="#2e5d3a">
+    <ellipse cx="240" cy="222" rx="52" ry="20"/>
+    <ellipse cx="196" cy="208" rx="40" ry="16" transform="rotate(-18 196 208)"/>
+    <ellipse cx="284" cy="208" rx="40" ry="16" transform="rotate(18 284 208)"/>
+    <ellipse cx="240" cy="196" rx="38" ry="15"/>
+  </g>
+  <!-- violet bloom clusters -->
+  <g>
+    <g transform="translate(214,166)">
+      <ellipse cx="0" cy="-13" rx="9" ry="13" fill="#8f5fb0"/>
+      <ellipse cx="-12" cy="6" rx="9" ry="13" fill="#8f5fb0" transform="rotate(-40 -12 6)"/>
+      <ellipse cx="12" cy="6" rx="9" ry="13" fill="#8f5fb0" transform="rotate(40 12 6)"/>
+      <ellipse cx="0" cy="-2" rx="6" ry="9" fill="#c9a3d9"/>
+      <circle cx="0" cy="2" r="3.4" fill="#f4e9a8"/>
+    </g>
+    <g transform="translate(268,158)">
+      <ellipse cx="0" cy="-12" rx="8" ry="12" fill="#7d4aa0"/>
+      <ellipse cx="-11" cy="5" rx="8" ry="12" fill="#7d4aa0" transform="rotate(-40 -11 5)"/>
+      <ellipse cx="11" cy="5" rx="8" ry="12" fill="#7d4aa0" transform="rotate(40 11 5)"/>
+      <ellipse cx="0" cy="-2" rx="5.4" ry="8" fill="#c9a3d9"/>
+      <circle cx="0" cy="2" r="3" fill="#f4e9a8"/>
+    </g>
+    <g transform="translate(244,132)">
+      <ellipse cx="0" cy="-10" rx="7" ry="10" fill="#a06cc4"/>
+      <ellipse cx="-9" cy="4" rx="7" ry="10" fill="#a06cc4" transform="rotate(-40 -9 4)"/>
+      <ellipse cx="9" cy="4" rx="7" ry="10" fill="#a06cc4" transform="rotate(40 9 4)"/>
+      <circle cx="0" cy="2" r="2.8" fill="#f4e9a8"/>
+    </g>
+    <g transform="translate(292,192)">
+      <ellipse cx="0" cy="-9" rx="6.4" ry="9" fill="#8f5fb0"/>
+      <ellipse cx="8" cy="4" rx="6.4" ry="9" fill="#8f5fb0" transform="rotate(40 8 4)"/>
+      <circle cx="0" cy="2" r="2.6" fill="#f4e9a8"/>
+    </g>
+    <g transform="translate(190,178)">
+      <ellipse cx="0" cy="-9" rx="6.4" ry="9" fill="#7d4aa0"/>
+      <ellipse cx="-8" cy="4" rx="6.4" ry="9" fill="#7d4aa0" transform="rotate(-40 -8 4)"/>
+      <circle cx="0" cy="2" r="2.6" fill="#f4e9a8"/>
+    </g>
+  </g>
+</svg>

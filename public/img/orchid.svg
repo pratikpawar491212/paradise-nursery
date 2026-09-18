@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360">
+  <rect width="480" height="360" fill="#eef4e8"/>
+  <circle cx="120" cy="75" r="100" fill="#e0edd8"/>
+  <!-- pot -->
+  <path d="M198 262 h84 l-9 62 h-66 Z" fill="#94643a"/>
+  <rect x="191" y="252" width="98" height="15" rx="6" fill="#734c2a"/>
+  <!-- stems -->
+  <g stroke="#4a7a44" stroke-width="6" fill="none" stroke-linecap="round">
+    <path d="M240 254 C 232 200 226 150 214 106"/>
+    <path d="M240 254 C 250 200 262 150 274 112"/>
+  </g>
+  <!-- blooms -->
+  <g>
+    <g transform="translate(210,96)">
+      <ellipse cx="0" cy="-26" rx="12" ry="26" fill="#c9a3d9"/>
+      <ellipse cx="0" cy="26" rx="12" ry="26" fill="#c9a3d9"/>
+      <ellipse cx="-24" cy="0" rx="26" ry="12" fill="#c9a3d9"/>
+      <ellipse cx="24" cy="0" rx="26" ry="12" fill="#c9a3d9"/>
+      <ellipse cx="-17" cy="-17" rx="17" ry="13" transform="rotate(-45 -17 -17)" fill="#c9a3d9"/>
+      <ellipse cx="17" cy="-17" rx="17" ry="13" transform="rotate(45 17 -17)" fill="#c9a3d9"/>
+      <ellipse cx="-17" cy="17" rx="17" ry="13" transform="rotate(45 -17 17)" fill="#c9a3d9"/>
+      <ellipse cx="17" cy="17" rx="17" ry="13" transform="rotate(-45 17 17)" fill="#c9a3d9"/>
+      <circle r="8" fill="#f4e9a8"/>
+    </g>
+    <g transform="translate(278,102)">
+      <ellipse cx="0" cy="-22" rx="10" ry="22" fill="#d9bce6"/>
+      <ellipse cx="0" cy="22" rx="10" ry="22" fill="#d9bce6"/>
+      <ellipse cx="-22" cy="0" rx="22" ry="10" fill="#d9bce6"/>
+      <ellipse cx="22" cy="0" rx="22" ry="10" fill="#d9bce6"/>
+      <ellipse cx="-15" cy="-15" rx="15" ry="11" transform="rotate(-45 -15 -15)" fill="#d9bce6"/>
+      <ellipse cx="15" cy="-15" rx="15" ry="11" transform="rotate(45 15 -15)" fill="#d9bce6"/>
+      <ellipse cx="-15" cy="15" rx="15" ry="11" transform="rotate(45 -15 15)" fill="#d9bce6"/>
+      <ellipse cx="15" cy="15" rx="15" ry="11" transform="rotate(-45 15 15)" fill="#d9bce6"/>
+      <circle r="7" fill="#f4e9a8"/>
+    </g>
+    <g transform="translate(244,150)">
+      <ellipse cx="0" cy="-15" rx="8" ry="15" fill="#b98cc9"/>
+      <ellipse cx="0" cy="15" rx="8" ry="15" fill="#b98cc9"/>
+      <ellipse cx="-15" cy="0" rx="15" ry="8" fill="#b98cc9"/>
+      <ellipse cx="15" cy="0" rx="15" ry="8" fill="#b98cc9"/>
+      <circle r="5" fill="#f4e9a8"/>
+    </g>
+  </g>
+  <!-- leaves at base -->
+  <g fill="#2f6b3f">
+    <ellipse cx="216" cy="220" rx="24" ry="12" transform="rotate(-16 216 220)"/>
+    <ellipse cx="264" cy="220" rx="24" ry="12" transform="rotate(14 264 220)"/>
+    <ellipse cx="240" cy="230" rx="26" ry="13"/>
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360">
+  <rect width="480" height="360" fill="#eef4e8"/>
+  <circle cx="120" cy="90" r="100" fill="#e0edd8"/>
+  <!-- terracotta pot -->
+  <path d="M200 262 h80 l-9 62 h-62 Z" fill="#c96f3f"/>
+  <rect x="193" y="252" width="94" height="15" rx="6" fill="#a3542c"/>
+  <!-- soil pebbles -->
+  <g fill="#8f6b45">
+    <circle cx="225" cy="256" r="4"/>
+    <circle cx="248" cy="258" r="3.4"/>
+    <circle cx="266" cy="255" r="3.8"/>
+  </g>
+  <!-- aloe rosette -->
+  <g stroke-linecap="round">
+    <path d="M240 254 C 226 210 222 165 232 118 C 244 150 246 205 244 254 Z" fill="#5da15f"/>
+    <path d="M240 254 C 254 212 262 168 254 122 C 244 155 240 208 240 254 Z" fill="#7dbd77"/>
+    <path d="M238 254 C 214 225 196 190 190 148 C 214 170 232 214 238 254 Z" fill="#4a8a4a"/>
+    <path d="M242 254 C 266 227 284 194 292 152 C 266 176 248 216 242 254 Z" fill="#4a8a4a"/>
+    <path d="M236 254 C 220 240 200 228 178 222 C 200 240 220 250 236 254 Z" fill="#6fae62"/>
+    <path d="M244 254 C 260 242 280 232 302 228 C 280 244 260 252 244 254 Z" fill="#6fae62"/>
+  </g>
+  <!-- teeth highlights -->
+  <g stroke="#dff0b8" stroke-width="2" opacity="0.8">
+    <path d="M234 130 l 5 8 l 5 -7"/>
+    <path d="M250 140 l 5 7 l 5 -6"/>
+  </g>
+</svg>

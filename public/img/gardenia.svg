@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360">
+  <rect width="480" height="360" fill="#eef4e8"/>
+  <circle cx="380" cy="80" r="105" fill="#e0edd8"/>
+  <!-- pot -->
+  <path d="M195 260 h90 l-10 68 h-70 Z" fill="#94643a"/>
+  <rect x="188" y="250" width="104" height="16" rx="6" fill="#734c2a"/>
+  <!-- dark foliage -->
+  <g fill="#1f5c33">
+    <ellipse cx="205" cy="200" rx="42" ry="24" transform="rotate(-24 205 200)"/>
+    <ellipse cx="275" cy="200" rx="42" ry="24" transform="rotate(24 275 200)"/>
+    <ellipse cx="240" cy="185" rx="40" ry="26"/>
+    <ellipse cx="212" cy="160" rx="36" ry="20" transform="rotate(-16 212 160)"/>
+    <ellipse cx="268" cy="160" rx="36" ry="20" transform="rotate(16 268 160)"/>
+  </g>
+  <!-- flowers -->
+  <g>
+    <g transform="translate(208,122)">
+      <g fill="#fdfdf6">
+        <ellipse cx="0" cy="-22" rx="13" ry="22"/>
+        <ellipse cx="0" cy="22" rx="13" ry="22"/>
+        <ellipse cx="-22" cy="0" rx="22" ry="13"/>
+        <ellipse cx="22" cy="0" rx="22" ry="13"/>
+        <ellipse cx="-15" cy="-15" rx="15" ry="12" transform="rotate(-45)"/>
+        <ellipse cx="15" cy="-15" rx="15" ry="12" transform="rotate(45)"/>
+        <ellipse cx="-15" cy="15" rx="15" ry="12" transform="rotate(45)"/>
+        <ellipse cx="15" cy="15" rx="15" ry="12" transform="rotate(-45)"/>
+      </g>
+      <circle r="9" fill="#f4e9a8"/>
+    </g>
+    <g transform="translate(282,112)">
+      <g fill="#fdfdf6">
+        <ellipse cx="0" cy="-19" rx="11" ry="19"/>
+        <ellipse cx="0" cy="19" rx="11" ry="19"/>
+        <ellipse cx="-19" cy="0" rx="19" ry="11"/>
+        <ellipse cx="19" cy="0" rx="19" ry="11"/>
+        <ellipse cx="-13" cy="-13" rx="13" ry="10" transform="rotate(-45)"/>
+        <ellipse cx="13" cy="-13" rx="13" ry="10" transform="rotate(45)"/>
+        <ellipse cx="-13" cy="13" rx="13" ry="10" transform="rotate(45)"/>
+        <ellipse cx="13" cy="13" rx="13" ry="10" transform="rotate(-45)"/>
+      </g>
+      <circle r="8" fill="#f4e9a8"/>
+    </g>
+    <g transform="translate(245,205)">
+      <g fill="#f4f1df">
+        <ellipse cx="0" cy="-16" rx="10" ry="16"/>
+        <ellipse cx="0" cy="16" rx="10" ry="16"/>
+        <ellipse cx="-16" cy="0" rx="16" ry="10"/>
+        <ellipse cx="16" cy="0" rx="16" ry="10"/>
+      </g>
+      <circle r="7" fill="#e8d57f"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360">
+  <rect width="480" height="360" fill="#eef4e8"/>
+  <circle cx="380" cy="70" r="110" fill="#e0edd8"/>
+  <!-- pot -->
+  <path d="M185 255 h110 l-12 75 h-86 Z" fill="#c0803f"/>
+  <rect x="178" y="245" width="124" height="18" rx="6" fill="#9c6428"/>
+  <!-- leaves -->
+  <g stroke-linecap="round">
+    <path d="M225 250 C 222 180 218 130 228 75 C 240 125 240 190 240 250 Z" fill="#3f7a44"/>
+    <path d="M243 250 C 245 170 250 120 262 70 C 270 130 262 195 256 250 Z" fill="#5d9c54" stroke="#e9f07f00"/>
+    <path d="M258 250 C 262 190 272 150 290 105 C 288 165 276 210 268 250 Z" fill="#4a8a4a"/>
+    <path d="M207 250 C 202 195 192 160 178 120 C 186 175 200 215 208 250 Z" fill="#356b3c"/>
+    <path d="M214 250 C 210 210 200 185 190 165 C 198 205 206 230 212 250 Z" fill="#6fae62"/>
+    <path d="M266 250 C 268 220 278 200 290 185 C 280 215 272 235 268 250 Z" fill="#356b3c"/>
+  </g>
+  <!-- leaf edges -->
+  <path d="M228 75 C 236 125 238 190 239 250" stroke="#e8d34f" stroke-width="3" fill="none"/>
+  <path d="M262 70 C 268 130 262 195 257 250" stroke="#e8d34f" stroke-width="3" fill="none"/>
+</svg>

@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f9e8c8"/>
+      <stop offset="0.55" stop-color="#e8c98f"/>
+      <stop offset="1" stop-color="#c9d8a8"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff3d0"/>
+      <stop offset="1" stop-color="#f4c96b"/>
+    </linearGradient>
+    <linearGradient id="hillFar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8aa876"/>
+      <stop offset="1" stop-color="#6d8f63"/>
+    </linearGradient>
+    <linearGradient id="hillNear" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5d8355"/>
+      <stop offset="1" stop-color="#41633f"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3c5c38"/>
+      <stop offset="1" stop-color="#22401f"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff1e2" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#9cc4a2" stop-opacity="0.75"/>
+    </linearGradient>
+    <radialGradient id="leaf" cx="0.35" cy="0.3" r="1">
+      <stop offset="0" stop-color="#6fae62"/>
+      <stop offset="1" stop-color="#2f5a2e"/>
+    </radialGradient>
+  </defs>
+
+  <!-- sky & sun -->
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <circle cx="1180" cy="210" r="150" fill="url(#sun)" opacity="0.95"/>
+  <circle cx="1180" cy="210" r="230" fill="url(#sun)" opacity="0.28"/>
+
+  <!-- clouds -->
+  <g fill="#fdf6e3" opacity="0.85">
+    <ellipse cx="330" cy="150" rx="130" ry="34"/>
+    <ellipse cx="430" cy="170" rx="90" ry="26"/>
+    <ellipse cx="820" cy="110" rx="110" ry="28"/>
+    <ellipse cx="1370" cy="120" rx="120" ry="30"/>
+  </g>
+
+  <!-- distant hills -->
+  <path d="M0 430 Q 220 330 480 400 T 1000 380 T 1600 360 V 900 H 0 Z" fill="url(#hillFar)"/>
+  <path d="M0 520 Q 300 420 640 500 T 1250 480 T 1600 520 V 900 H 0 Z" fill="url(#hillFar)" opacity="0.8"/>
+
+  <!-- greenhouse -->
+  <g>
+    <path d="M880 430 L1090 330 L1300 430 L1300 640 L880 640 Z" fill="#3f6a44"/>
+    <path d="M880 430 L1090 330 L1300 430 L1300 640 L880 640 Z" fill="url(#glass)" opacity="0.35"/>
+    <path d="M880 430 L1090 330 L1300 430" fill="none" stroke="#2c4d30" stroke-width="14"/>
+    <path d="M880 430 H1300 V640 H880 Z" fill="none" stroke="#2c4d30" stroke-width="10"/>
+    <g stroke="#2c4d30" stroke-width="5" opacity="0.85">
+      <line x1="985" y1="382" x2="985" y2="640"/>
+      <line x1="1090" y1="330" x2="1090" y2="640"/>
+      <line x1="1195" y1="382" x2="1195" y2="640"/>
+      <line x1="880" y1="510" x2="1300" y2="510"/>
+      <line x1="880" y1="575" x2="1300" y2="575"/>
+    </g>
+  </g>
+
+  <!-- near hills / ground -->
+  <path d="M0 560 Q 400 480 800 560 T 1600 540 V 900 H 0 Z" fill="url(#hillNear)"/>
+  <rect y="640" width="1600" height="260" fill="url(#ground)"/>
+
+  <!-- plant bench rows -->
+  <g>
+    <!-- helper row: bench + pots, reused visually -->
+    <g fill="#7a4f2a">
+      <rect x="120" y="700" width="420" height="16" rx="6"/>
+      <rect x="150" y="716" width="14" height="60"/>
+      <rect x="480" y="716" width="14" height="60"/>
+      <rect x="1060" y="700" width="420" height="16" rx="6"/>
+      <rect x="1090" y="716" width="14" height="60"/>
+      <rect x="1420" y="716" width="14" height="60"/>
+    </g>
+
+    <!-- pots row 1 -->
+    <g>
+      <g transform="translate(180,640)">
+        <path d="M0 0 H70 L62 60 H8 Z" fill="#b5713d"/>
+        <path d="M-6 0 H76 L72 14 H-2 Z" fill="#8a5227"/>
+        <g fill="url(#leaf)">
+          <ellipse cx="35" cy="-34" rx="16" ry="38"/>
+          <ellipse cx="12" cy="-26" rx="13" ry="32" transform="rotate(-24 12 -26)"/>
+          <ellipse cx="58" cy="-26" rx="13" ry="32" transform="rotate(24 58 -26)"/>
+        </g>
+      </g>
+      <g transform="translate(310,640)">
+        <path d="M0 0 H70 L62 60 H8 Z" fill="#a9642f"/>
+        <path d="M-6 0 H76 L72 14 H-2 Z" fill="#8a5227"/>
+        <g fill="url(#leaf)">
+          <ellipse cx="35" cy="-40" rx="17" ry="46"/>
+          <ellipse cx="8" cy="-28" rx="12" ry="30" transform="rotate(-30 8 -28)"/>
+          <ellipse cx="62" cy="-28" rx="12" ry="30" transform="rotate(30 62 -28)"/>
+        </g>
+      </g>
+      <g transform="translate(1120,640)">
+        <path d="M0 0 H70 L62 60 H8 Z" fill="#b5713d"/>
+        <path d="M-6 0 H76 L72 14 H-2 Z" fill="#8a5227"/>
+        <g fill="url(#leaf)">
+          <ellipse cx="35" cy="-34" rx="16" ry="38"/>
+          <ellipse cx="12" cy="-26" rx="13" ry="32" transform="rotate(-24 12 -26)"/>
+          <ellipse cx="58" cy="-26" rx="13" ry="32" transform="rotate(24 58 -26)"/>
+        </g>
+      </g>
+      <g transform="translate(1250,640)">
+        <path d="M0 0 H70 L62 60 H8 Z" fill="#a9642f"/>
+        <path d="M-6 0 H76 L72 14 H-2 Z" fill="#8a5227"/>
+        <g fill="url(#leaf)">
+          <ellipse cx="35" cy="-42" rx="17" ry="48"/>
+          <ellipse cx="8" cy="-28" rx="12" ry="30" transform="rotate(-30 8 -28)"/>
+          <ellipse cx="62" cy="-28" rx="12" ry="30" transform="rotate(30 62 -28)"/>
+        </g>
+      </g>
+    </g>
+
+    <!-- foreground shrubs -->
+    <g fill="#1c3a1c">
+      <ellipse cx="60" cy="840" rx="180" ry="90"/>
+      <ellipse cx="330" cy="870" rx="200" ry="80"/>
+      <ellipse cx="640" cy="850" rx="160" ry="70"/>
+      <ellipse cx="960" cy="880" rx="230" ry="85"/>
+      <ellipse cx="1300" cy="850" rx="190" ry="75"/>
+      <ellipse cx="1560" cy="870" rx="180" ry="90"/>
+    </g>
+    <g fill="#2b5227">
+      <ellipse cx="150" cy="820" rx="90" ry="46"/>
+      <ellipse cx="560" cy="840" rx="100" ry="44"/>
+      <ellipse cx="900" cy="830" rx="110" ry="48"/>
+      <ellipse cx="1240" cy="845" rx="95" ry="42"/>
+      <ellipse cx="1480" cy="820" rx="110" ry="50"/>
+    </g>
+  </g>
+
+  <!-- birds -->
+  <g stroke="#6d5a3a" stroke-width="6" fill="none" stroke-linecap="round">
+    <path d="M420 210 q 20 -18 40 0 q 20 -18 40 0"/>
+    <path d="M540 170 q 16 -14 32 0 q 16 -14 32 0"/>
+  </g>
+</svg>
